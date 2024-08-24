@@ -1,5 +1,5 @@
 run = "npm run dev"
 entrypoint = "index.html"
-language=[""]
-framework=[""]
 recommendedAgents=[""]
+supportedLanguages=["typescript"]
+supportedFrameworks=["react"]
