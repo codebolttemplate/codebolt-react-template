@@ -41,8 +41,11 @@ usage:
       - codebolt_dev
     laynut: dev  
   install: 
-    steps: 
-      - shell:
+    steps:
+      - instruction:
+          AIinstruction: Create this app 
+      - command:
+          type: shell
           description: This installs the Npm
           command: npm install 
   appUse:
