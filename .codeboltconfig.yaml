@@ -48,7 +48,9 @@ usage:
           type: shell
           description: This installs the Npm
           command: npm install 
-    customInstallationAgent: true        
+    customInstallationAgent:
+          enabled: true
+          agent: codebolt_dev        
   appUse:
     prerunsteps:
       - shell:
