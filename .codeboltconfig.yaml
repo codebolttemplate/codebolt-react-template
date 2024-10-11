@@ -48,6 +48,7 @@ usage:
           type: shell
           description: This installs the Npm
           command: npm install 
+    customInstallationAgent: true        
   appUse:
     prerunsteps:
       - shell:
