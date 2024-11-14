@@ -20,14 +20,14 @@ technicalInfo:
     - python:2.13+
     - redis:any
   knowledgebases:
-    - url:
-        url: docs.test.com
-        vectordbId: adsfasdfasd
-        name: TestDocs
-    - docs:
-        url: asdfi/co/file
-        vectordbId: asdfaga
-        name: sampledoc
+    - url: docs.test.com
+      vectordbId: adsfasdfasd
+      name: TestDocs
+      type: url
+    - url: asdfi/co/file
+      vectordbId: asdfaga
+      name: sampledoc
+      type: doc
   instruction:
     - text: adsfadsfasdf
     - localfile:
