@@ -12,9 +12,6 @@ technicalInfo:
     - typescript
   supportedFrameworks:
     - react
-  secrets:
-    - name: MONGO_URL
-      description: MonogoDb URL
   services:
     - node:20+
     - python:2.13+
